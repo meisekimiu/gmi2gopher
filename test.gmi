@@ -1,0 +1,22 @@
+# Hello
+
+Heheh. This is a test.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra felis massa, nec vulputate quam sodales ac. Phasellus commodo turpis a metus consectetur, eu ultrices est consectetur. Quisque rutrum enim mollis, hendrerit ligula vitae, ornare sapien. Donec eget auctor justo, vitae consequat urna. Vivamus et efficitur risus. Phasellus vitae purus a leo tristique dictum. Integer dapibus sit amet justo posuere bibendum. Mauris volutpat fringilla purus ut pharetra. Ut at molestie lectus. 
+
+=> flippy.gmi This is the flippy document
+=> https://www.example.com HTTP Link
+=> gopher://www.example.com Gopher Link
+=> gemini://www.example.com Gemini Link
+
+## I'm using Vim for this
+
+Why is gemtext supported in vim I didn't install anything what the flippy.
+
+
+### Top reasons why potatoes are good
+* They are yummy
+* They are flavey
+* They are potatey
+
+So in conclusion *potatoes are awesome!*
