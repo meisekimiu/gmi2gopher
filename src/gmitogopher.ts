@@ -190,16 +190,19 @@ export class GmiToGopher {
     const pathPieces = target.split('/');
     const filename = pathPieces.pop() as string;
     if (filename.length === 0 || !filename.includes('.')) {
-      return filename;
+      pathPieces.push(filename);
+      return pathPieces.join('/');
     }
     const extension = filename.split('.').pop()?.toLocaleLowerCase();
     if (extension === 'gmi') {
       if (filename === 'index.gmi') {
-        return pathPieces.pop() || '/';
+        return pathPieces.join('/') || '/';
       } else {
-        return filename.replace(/\.gmi$/i, '.txt');
+        pathPieces.push(filename.replace(/\.gmi$/i, '.txt'));
+        return pathPieces.join('/');
       }
     }
-    return filename;
+    pathPieces.push(filename);
+    return pathPieces.join('/');
   }
 }

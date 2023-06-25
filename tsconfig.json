@@ -2,12 +2,9 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "outDir": "build",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "target": "es2015"
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "**/*.spec.ts"
-  ]
+  "include": ["src"],
+  "exclude": ["**/*.spec.ts"]
 }

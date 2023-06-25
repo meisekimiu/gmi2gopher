@@ -8,6 +8,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra felis mass
 => https://www.example.com HTTP Link
 => gopher://www.example.com Gopher Link
 => gemini://www.example.com Gemini Link
+=> /flippy/floopy This is a link with leading slash
+=> posts/mew.txt This is a link with a slash in the middle
 
 ## I'm using Vim for this
 
