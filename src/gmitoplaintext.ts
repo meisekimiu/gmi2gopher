@@ -8,6 +8,10 @@ export class GmiToPlainText extends GmiToGopher {
   }
 
   protected formatLink(target: string, label: string): string {
-    return `${label}: ${target}`;
+    if (label) {
+      return `${label}: ${target}`;
+    } else {
+      return target;
+    }
   }
 }
